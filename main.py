@@ -21,7 +21,7 @@ class App(tk.Tk):
         self.columnconfigure(0, weight=100)
 
         self.testDatabase()
-        self.switchFrame("books")
+        self.switchFrame("login")
         self.mainloop()
 
     def testDatabase(self):
