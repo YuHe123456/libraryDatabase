@@ -37,6 +37,7 @@ class App(tk.Tk):
         #   looks in self.frames to see if it exists
 
         # it puts that frame on the grid, and removes all others
+        print("frame switched 2")
         valid = False
         for f in self.frames:
             if f == frame:

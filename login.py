@@ -66,10 +66,11 @@ class loginFrame(tk.Frame):
         
         results = results.fetchall()
         
-        print(results)
+        print(results, "result")
         
         if len(results) == 1:
             self.parent.loggedInUser = p_username
+            print("frame switched")
             self.parent.switchFrame("books")
         
         else:
